@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="icon" href="images/icon_apple.png">
+
+    <title>Simulador de Crédito</title>
+</head>
+<body class="grey lighten-3">
+
+    <div class="row">
+      <div class="col l12 s12 m12 xl12 center-align">
+          <a href="index.html"><img class="responsive-img align-center" src="images/logo.png" width="250" height="250"></a>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="row">
+                    <div class="input-field col l12 s12 m12 xl12">
+                        <b>Valor da compra</b>
+                        <input placeholder="R$ 0,00" id="val_compra" type="text" class="validate">
+                    </div>
+
+                    <div class="input-field col l12 s12 m12 xl12">
+                        <b>Entrada em dinheiro</b>
+                        <input placeholder="R$ 0,00" id="val_entrada" type="text" class="validate">
+                    </div>
+                </div>
+            </form>
+        </div> 
+
+        <div class="row">
+          <table class="centered striped">
+            <thead>
+              <tr>
+                <th>PARCELAS</th>
+                <th>VALOR PARCELAS</th>
+                <th>VALOR TOTAL</th>
+              </tr>
+            </thead>
+
+            <tbody id="exibir">
+            </tbody>
+          </table>
+    </div>
+
+      <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <!-- FontAwesome JavaScript -->
+    <script src="https://use.fontawesome.com/1155ed6c0a.js"></script>
+
+    <script src="regra.js"></script>
+</body>
+</html>
