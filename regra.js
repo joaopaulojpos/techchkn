@@ -2,8 +2,30 @@ function calculo(val1, val2) {
   valor_compra = parseInt(val1);
   valor_entrada = val2;
 
-  var taxas = [1.04, 3.09, 3.94, 4.44, 5.01, 5.64, 6.36, 6.32, 7.02, 7.71, 8.40, 9.09, 9.76, 10.78, 11.44, 12.10, 12.74, 13.39, 14.02, 18.27, 18.83, 19.38];
-  let taxa_debito = 5.26;
+  var taxas = [
+    3.082,    // 1 parcela
+    3.724,    // 2 parcelas
+    4.493,    // 3 parcelas
+    5.263,    // 4 parcelas
+    6.270,    // 5 parcelas
+    6.952,    // 6 parcelas
+    7.181,    // 7 parcelas
+    7.759,    // 8 parcelas
+    8.696,    // 9 parcelas
+    13.290,   // 10 parcelas
+    14.254,   // 11 parcelas
+    15.926,   // 12 parcelas
+    12.233,   // 13 parcelas
+    13.109,   // 14 parcelas
+    14.025,   // 15 parcelas
+    14.797,   // 16 parcelas
+    15.674,   // 17 parcelas
+    21.306,   // 18 parcelas
+    22.354,   // 19 parcelas
+    23.198,   // 20 parcelas
+    29.039    // 21 parcelas
+  ]; 
+  let taxa_debito = 1.451;
   var valor_parcelas = [];
   var valor_total = [];
 
