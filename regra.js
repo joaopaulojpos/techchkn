@@ -12,18 +12,18 @@ function calculo(val1, val2) {
     7.181,    // 7 parcelas
     7.759,    // 8 parcelas
     8.696,    // 9 parcelas
-    13.290,   // 10 parcelas
-    14.254,   // 11 parcelas
-    15.926,   // 12 parcelas
+    10.2895,   // 10 parcelas
+    11.2535,   // 11 parcelas
+    12.17625,   // 12 parcelas
     12.233,   // 13 parcelas
-    13.109,   // 14 parcelas
+    13.1095,   // 14 parcelas
     14.025,   // 15 parcelas
-    14.797,   // 16 parcelas
-    15.674,   // 17 parcelas
-    21.306,   // 18 parcelas
+    14.7975,   // 16 parcelas
+    15.67375,   // 17 parcelas
+    17.556,   // 18 parcelas
     22.354,   // 19 parcelas
     23.198,   // 20 parcelas
-    29.039    // 21 parcelas
+    25.28875    // 21 parcelas
   ]; 
   let taxa_debito = 1.451;
   var valor_parcelas = [];
