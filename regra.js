@@ -3,29 +3,26 @@ function calculo(val1, val2) {
   valor_entrada = val2;
 
   var taxas = [
-    3.082,    // 1 parcela
-    3.724,    // 2 parcelas
-    4.493,    // 3 parcelas
-    5.263,    // 4 parcelas
-    6.270,    // 5 parcelas
-    6.952,    // 6 parcelas
-    7.181,    // 7 parcelas
-    7.759,    // 8 parcelas
-    8.696,    // 9 parcelas
-    10.2895,   // 10 parcelas
-    11.2535,   // 11 parcelas
-    12.17625,   // 12 parcelas
-    12.233,   // 13 parcelas
-    13.1095,   // 14 parcelas
-    14.025,   // 15 parcelas
-    14.7975,   // 16 parcelas
-    15.67375,   // 17 parcelas
-    17.556,   // 18 parcelas
-    22.354,   // 19 parcelas
-    23.198,   // 20 parcelas
-    25.28875    // 21 parcelas
+    4.482,  // 1x
+    4.888,  // 2x
+    5.519,  // 3x
+    6.906,  // 4x
+    7.759,  // 5x
+    8.108,  // 6x
+    8.601,  // 7x
+    9.625,  // 8x
+    10.363, // 9x
+    11.086, // 10x
+    11.957, // 11x
+    12.931, // 12x
+    13.611, // 13x
+    14.521, // 14x
+    15.380, // 15x
+    16.252, // 16x
+    17.220, // 17x
+    18.245  // 18x
   ]; 
-  let taxa_debito = 1.451;
+  let taxa_debito = 2.041;
   var valor_parcelas = [];
   var valor_total = [];
 
